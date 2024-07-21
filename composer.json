@@ -1,0 +1,20 @@
+{
+    "name": "ernani-mac/open-ia",
+    "description": "Component for using the OpenIA API and its models.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ernani da Silva Maciel",
+            "email": "ernanismac@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ErnaniMac\\openia\\src\\": "src/"
+        }
+    }
+}
