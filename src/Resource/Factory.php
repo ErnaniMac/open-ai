@@ -16,7 +16,6 @@ class Factory
 
     private function getRequest()
     {
-        // Não está sendo usado, apenas para deixar como modelo para uso futuro
         return [
             'Accept', 'application/json',
             'Content-Type' => 'application/json'

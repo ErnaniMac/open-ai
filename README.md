@@ -5,11 +5,11 @@
 Component for using the OpenIA API and its models.
 
 
-## Requisitos
+## Requirements
 
 - PHP >=7.4
 
-## Instalação
+## Installation
 
 1. Add in your composer:
 
@@ -17,7 +17,7 @@ Component for using the OpenIA API and its models.
 composer require ernani-mac/open-ia
 ```
 
-## Como usar
+## How to use
 
 ```php
     
