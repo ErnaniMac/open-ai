@@ -6,9 +6,9 @@ use ErnaniMac\openia\src\Contract\FormatterInterface;
 
 class Terminal implements FormatterInterface
 {
-    private string $contentResponse;
+    private array $contentResponse;
 
-    public function __construct(string $contentResponse) {
+    public function __construct(array $contentResponse) {
         $this->contentResponse = $contentResponse;
     }
 

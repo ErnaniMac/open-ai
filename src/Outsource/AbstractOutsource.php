@@ -13,10 +13,10 @@ abstract class AbstractOutsource
     private Parser\Factory $parserFactory;
     private Resource\Factory $resourceFactory;
 
-    public function __construct() {
+    public function __construct(Profile $profile) {
         $this->formatterFactory = new Formatter\Factory();
         $this->parserFactory = new Parser\Factory();
-        $this->resourceFactory = new Resource\Factory(new Profile);
+        $this->resourceFactory = new Resource\Factory($profile);
     }
 
     public function getResourceFactory(): Resource\Factory
