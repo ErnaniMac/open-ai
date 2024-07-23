@@ -1,6 +1,6 @@
 <?php
 
-namespace ErnaniMac\openia\src\Outsource;
+namespace ErnaniMac\openai\src\Outsource;
 
 class Terminal extends AbstractOutsource
 {

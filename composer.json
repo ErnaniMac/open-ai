@@ -1,6 +1,6 @@
 {
-    "name": "ernani-mac/open-ia",
-    "description": "Component for using the OpenIA API and its models.",
+    "name": "ernani-mac/open-ai",
+    "description": "Component for using the OpenAI API and its models.",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,11 +10,11 @@
         }
     ],
     "require": {
-        "php": ">=7.4"
+        "php": ">=8.1"
     },
     "autoload": {
         "psr-4": {
-            "ErnaniMac\\openia\\src\\": "src/"
+            "ErnaniMac\\openai\\src\\": "src/"
         }
     }
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace ErnaniMac\openia\src\Formatter;
+namespace ErnaniMac\openai\src\Formatter;
 
-use ErnaniMac\openia\src\Contract\FormatterInterface;
+use ErnaniMac\openai\src\Contract\FormatterInterface;
 
 class Terminal implements FormatterInterface
 {

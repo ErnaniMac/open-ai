@@ -1,9 +1,9 @@
 <?php
 
-namespace ErnaniMac\openia\src\Resource;
+namespace ErnaniMac\openai\src\Resource;
 
-use ErnaniMac\openia\src\Resource;
-use ErnaniMac\openia\src\Profile;
+use ErnaniMac\openai\src\Resource;
+use ErnaniMac\openai\src\Profile;
 
 class Factory
 {

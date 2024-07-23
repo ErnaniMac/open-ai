@@ -1,16 +1,16 @@
 <?php
 
-namespace ErnaniMac\openia\src\Enum;
+namespace ErnaniMac\openai\src\Enum;
 
-final class HttpMethod 
+enum HttpMethod: string 
 {
-    public const GET = 'GET';
+    case GET = "GET";
 
-    public const POST = 'POST';
+    case POST = "POST";
 
-    public const PUT = 'PUT';
+    case PUT = "PUT";
 
-    public const DELETE = 'DELETE';
+    case DELETE = "DELETE";
 
-    public const PATCH = 'PATCH';
+    case PATCH = "PATCH";
 }

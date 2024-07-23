@@ -1,10 +1,10 @@
 <?php
 
-namespace ErnaniMac\openia\src\Resource;
+namespace ErnaniMac\openai\src\Resource;
 
-use ErnaniMac\openia\src\Enum\HttpMethod;
-use ErnaniMac\openia\src\Profile;
-use ErnaniMac\openia\src\Contract\ParserInterface;
+use ErnaniMac\openai\src\Enum\HttpMethod;
+use ErnaniMac\openai\src\Profile;
+use ErnaniMac\openai\src\Contract\ParserInterface;
 
 class Terminal extends Base
 {
@@ -18,7 +18,7 @@ class Terminal extends Base
     public function chat(ParserInterface $parser)
     {
         $this->request['bodyJson'] = $parser->getParsedItem();
-        $this->request['method'] = HttpMethod::POST;
+        $this->request['method'] = HttpMethod::POST->value;
 
         return $this->getResponse();
     }

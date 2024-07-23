@@ -1,11 +1,11 @@
 <?php
 
-namespace ErnaniMac\openia\src\Outsource;
+namespace ErnaniMac\openai\src\Outsource;
 
-use ErnaniMac\openia\src\Formatter;
-use ErnaniMac\openia\src\Parser;
-use ErnaniMac\openia\src\Resource;
-use ErnaniMac\openia\src\Profile;
+use ErnaniMac\openai\src\Formatter;
+use ErnaniMac\openai\src\Parser;
+use ErnaniMac\openai\src\Resource;
+use ErnaniMac\openai\src\Profile;
 
 abstract class AbstractOutsource
 {

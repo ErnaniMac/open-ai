@@ -1,8 +1,8 @@
 <?php
 
-namespace ErnaniMac\openia\src\Formatter;
+namespace ErnaniMac\openai\src\Formatter;
 
-use ErnaniMac\openia\src\Formatter;
+use ErnaniMac\openai\src\Formatter;
 use src\Entities;
 
 class Factory 

@@ -1,27 +1,27 @@
-# OpenIA chat
+# OpenAI chat
 
 ![Slim PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 
-Component for using the OpenIA API and its models.
+Component for using the OpenAI API and its models.
 
 
 ## Requirements
 
-- PHP >=7.4
+- PHP >=8.1
 
 ## Installation
 
 1. Add in your composer:
 
 ```bash
-composer require ernani-mac/open-ia
+composer require ernani-mac/open-ai
 ```
 
 ## How to use
 
 ```php
     
-    use ErnaniMac\openia\src\Facade;
+    use ErnaniMac\openai\src\Facade;
 
     class Terminal
     {
@@ -29,7 +29,7 @@ composer require ernani-mac/open-ia
         {
             $chat = new Facade($token, $url);
 
-            // OpenIA LLM model to use.
+            // OpenAI LLM model to use.
             $model = 'gpt-3.5-turbo';
 
             // Pre-configured how you want the AI ​​to interact with your questions.
@@ -59,9 +59,9 @@ composer require ernani-mac/open-ia
     try {
 
         $apiKey = 'YOUR_API_KEY';
-        $base_url_openIA = 'https://api.openai.com/';
+        $base_url_openAI = 'https://api.openai.com/';
 
-        $response = $terminal->chat($apiKey, $base_url_openIA);
+        $response = $terminal->chat($apiKey, $base_url_openAI);
 
         var_dump($response);
 

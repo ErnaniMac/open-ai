@@ -1,6 +1,6 @@
 <?php
 
-namespace ErnaniMac\openia\src;
+namespace ErnaniMac\openai\src;
 
 class Profile
 {

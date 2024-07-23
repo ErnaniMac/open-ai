@@ -1,8 +1,8 @@
 <?php
 
-namespace ErnaniMac\openia\src\Parser;
+namespace ErnaniMac\openai\src\Parser;
 
-use ErnaniMac\openia\src\Parser;
+use ErnaniMac\openai\src\Parser;
 
 class Factory
 {

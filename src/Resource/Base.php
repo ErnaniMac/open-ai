@@ -1,10 +1,10 @@
 <?php
 
-namespace ErnaniMac\openia\src\Resource;
+namespace ErnaniMac\openai\src\Resource;
 
-use ErnaniMac\openia\src\Enum\HttpStatusCode;
+use ErnaniMac\openai\src\Enum\HttpStatusCode;
 use Exception;
-use ErnaniMac\openia\src\Profile;
+use ErnaniMac\openai\src\Profile;
 
 abstract class Base
 {
@@ -25,9 +25,11 @@ abstract class Base
     protected function checkHttpStatusCode($response)
     {
         $successStatus = [
-            HttpStatusCode::OK,
-            HttpStatusCode::CREATED,
-            HttpStatusCode::ACCEPTED
+            HttpStatusCode::OK->value,
+            HttpStatusCode::CREATED->value,
+            HttpStatusCode::ACCEPTED->value,
+            HttpStatusCode::NO_CONTENT->value,
+            HttpStatusCode::MULTI_STATUS->value
         ];
 
         if (in_array($response['httpStatusCode'], $successStatus)) {

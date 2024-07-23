@@ -1,8 +1,8 @@
 <?php
 
-namespace ErnaniMac\openia\src\Parser;
+namespace ErnaniMac\openai\src\Parser;
 
-use ErnaniMac\openia\src\Contract\ParserInterface;
+use ErnaniMac\openai\src\Contract\ParserInterface;
 
 class Terminal implements ParserInterface
 {

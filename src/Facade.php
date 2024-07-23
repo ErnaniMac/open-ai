@@ -1,9 +1,9 @@
 <?php
 
-namespace ErnaniMac\openia\src;
+namespace ErnaniMac\openai\src;
 
-use ErnaniMac\openia\src\Outsource;
-use ErnaniMac\openia\src\Profile;
+use ErnaniMac\openai\src\Outsource;
+use ErnaniMac\openai\src\Profile;
 
 class Facade 
 {

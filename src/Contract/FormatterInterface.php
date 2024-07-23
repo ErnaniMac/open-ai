@@ -1,6 +1,6 @@
 <?php
 
-namespace ErnaniMac\openia\src\Contract;
+namespace ErnaniMac\openai\src\Contract;
 
 interface FormatterInterface {
 

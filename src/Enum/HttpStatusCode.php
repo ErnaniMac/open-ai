@@ -1,30 +1,32 @@
 <?php
 
-namespace ErnaniMac\openia\src\Enum;
+namespace ErnaniMac\openai\src\Enum;
 
-final class HttpStatusCode 
+enum HttpStatusCode: int 
 {
-    const OK = 200;
+    case OK = 200;
 
-    const CREATED = 201;
+    case CREATED = 201;
 
-    const ACCEPTED = 202;
+    case ACCEPTED = 202;
 
-    const NO_CONTENT = 204;
+    case NO_CONTENT = 204;
 
-    const BAD_REQUEST = 400;
+    case MULTI_STATUS = 207;
 
-    const UNAUTHORIZED = 401;
+    case BAD_REQUEST = 400;
 
-    const NOT_FOUND = 404;
+    case UNAUTHORIZED = 401;
 
-    const METHOD_NOT_ALLOWED = 405;
+    case NOT_FOUND = 404;
 
-    const UNPROCESSABLE_ENTITY = 422;
+    case METHOD_NOT_ALLOWED = 405;
 
-    const INTERNAL_SERVER_ERROR = 500;
+    case UNPROCESSABLE_ENTITY = 422;
 
-    const TOO_MANY_REQUESTS = 429;
+    case INTERNAL_SERVER_ERROR = 500;
 
-    const CONFLICT = 409;
+    case TOO_MANY_REQUESTS = 429;
+    
+    case CONFLICT = 409;
 }
